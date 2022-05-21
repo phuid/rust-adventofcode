@@ -16,7 +16,7 @@ fn binary_to_u32(s: String) -> u32 {
     
 
 fn main() {
-    println!("2021 day 3");
+    println!("2021 day 3 by phuid");
 
     let input = fs::read_to_string("input.txt").expect("Something went wrong reading the file");
 

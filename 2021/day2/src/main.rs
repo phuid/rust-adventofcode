@@ -2,7 +2,7 @@ use std::{fs};
 use substring::Substring;
 
 fn main() {
-    println!("2021 day 2");
+    println!("2021 day 2 by phuid");
 
     let inputstring = fs::read_to_string("input.txt").expect("Something went wrong reading the file");
 
