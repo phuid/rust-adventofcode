@@ -2,6 +2,8 @@ use std::{fs};
 use substring::Substring;
 
 fn main() {
+    println!("2021 day 2");
+
     let inputstring = fs::read_to_string("input.txt").expect("Something went wrong reading the file");
 
     let mut inputvector: Vec<&str> = Vec::new();

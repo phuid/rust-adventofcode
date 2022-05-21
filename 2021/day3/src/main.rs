@@ -16,6 +16,8 @@ fn binary_to_u32(s: String) -> u32 {
     
 
 fn main() {
+    println!("2021 day 3");
+
     let input = fs::read_to_string("input.txt").expect("Something went wrong reading the file");
 
     let mut result: Vec<i32> = Vec::new();
